@@ -1,0 +1,366 @@
+
+/* .el-upload{
+    margin-left:45px;
+}
+.el-tabs__content{
+    overflow: initial;
+} */
+table{
+    border-collapse: collapse;
+}
+#main .el-input__inner{
+  height: 30px;
+  line-height: 30px;
+  width:100%;
+}
+#main .newCredit{
+  font-size: 13px;
+}
+#main .el-input{
+  font-size: 12px;
+  flex:auto
+}
+#main .subform{
+  box-shadow: 1px 2px 2px #eee;
+}
+#main .el-submenu .el-menu-item{
+  min-width: auto
+}
+.search li{
+  margin-top:10px;
+}
+.search li:last-child{
+  position: absolute;
+  right: 25px;
+}
+/* .el-table .sort-caret.ascending{
+  border-bottom-color: #eee;
+} */
+/* .el-table .sort-caret.descending{
+  border-top-color: #eee;
+} */
+.commentinput .el-textarea .el-textarea__inner{
+    height:100%;
+}
+
+/* .readonlyComment .el-input.is-disabled .el-input__inner{
+    min-height:60px;
+} */
+.accessConfig  .category .el-checkbox-button{
+    margin-right:10px;
+}
+.accessConfig  .category .el-checkbox-button .el-checkbox-button__inner{
+    padding:6px 6px;
+    border-left:1px solid #dcdfe6;
+}
+.accessConfig  .category .el-checkbox-button.is-checked .el-checkbox-button__inner{
+    border-left:1px solid #409EFF;
+}
+.accessConfig .category .el-checkbox-button.is-disabled .el-checkbox-button__inner{
+    border-left: 1px solid #ebeef5;
+}
+.accessConfig .category .el-checkbox-button.is-focus .el-checkbox-button__inner{
+    border-left:1px solid #409EFF;
+}
+.accessConfig  .category .el-checkbox-group{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.customDialog .el-tabs__content{
+    max-height:1500px;
+    overflow-y:auto;
+}
+
+.mainarea .filter .el-input__inner {
+    height:30px;
+}
+.main .search .el-input__inner,.main .search  .el-select .el-input__inner{
+    height:30px!important;
+}
+.main .search .el-button,.main .operate .el-button{
+    height:30px;
+    padding:0 6px;
+    font-size: 12px;
+}
+.mainarea .bottom .el-menu{
+    height:100%;
+}
+.newCredit .formFill .formWrapper,.newCredit .top{
+    font-size: 13px;
+}
+.tuchu_shuchu .left_bingtu .echarts{
+    width: 400px;
+    height: 254px;
+}
+.newCredit .formFill .formWrapper .el-input__inner{
+    height:30px;
+}
+
+#sensity .echartopen .echarts{
+  width: 1000px;
+}
+.levelSetting .el-input{
+    /* width:150px; */
+}
+.levelSetting .el-radio+.el-radio{
+    margin-left:0;
+}
+.creditTable .el-table{
+    font-size:12px;
+}
+.creditTable .el-table td{
+    height:25px;
+    line-height: 25px;
+}
+.creditTable .el-table td, .creditTable .el-table th{
+    padding:0;
+}
+.creditTable .el-table__header th{
+    text-align:center;
+}
+
+.buyBack .el-checkbox__label{
+    padding-left:5px;
+}
+.buyBack .el-checkbox+.el-checkbox{
+    margin-left:15px;
+}
+.buyBack .filtrate .el-button,.others .el-button{
+    height:28px;
+    line-height: 28px;
+    padding:0px 10px;
+}
+.el-select__tags{
+  white-space: nowrap;
+  overflow: hidden;
+}
+.accessConfig{
+  font-size: 13px;
+}
+.accessConfig .el-checkbox-button__inner{
+  font-size: 13px;
+}
+#main .mainarea .bottom .el-menu{
+  background: #383E4C;
+}
+#main .el-submenu__title{
+  color:#fff;
+}
+#main .el-submenu__title:hover{
+  background-color: #2E323D;
+}
+#main .el-menu-item:focus, .el-menu-item:hover{
+  background-color: #2E323D;
+}
+#main .el-menu-item{
+  color:#fff;
+}
+#main .filter{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px #eee;
+  left: -10px;
+
+}
+#main .el-container{
+  position: relative;
+}
+#main .right{
+    padding-left: 10px;
+    margin-bottom: 35px;
+  }
+#main .right.showFilter{
+  padding-top: 64px;
+  padding-left: 10px;
+}
+#main .bottom{
+  margin-top: 0;
+}
+#main  .el-menu-item:hover{
+  background: #2E323D;
+}
+#BBsection .el-menu-item-group__title{
+  padding: 0!important;
+}
+#BBsection .el-menu-item:hover{
+  background-color: #dcdfe6
+}
+#BBsection .el-menu{
+  border: none;
+}
+#abs .el-dialog__body{
+    padding-top:10px;
+}
+#ias .download .el-table th{
+    text-align: center;
+}
+#logininput .el-input__inner{
+  height: 40px!important;
+}
+/* #fenbu .el-table th>.cell{
+    text-align: center;
+}
+#fenbu #onlyTable .el-table th>.cell  {
+  text-align: right;
+} */
+#performance .el-date-editor.el-input,#performance .el-date-editor.el-input__inner{
+    width:142px;
+}
+/*数据中心*/
+.lineChart .echarts{
+    margin: 0 auto;
+}
+.marketSummary .el-button,.bondData .el-button{
+    height:34px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+.volatilityCone .echarts{
+    min-width: 600px;
+    width:auto;
+}
+.histvol .echarts{
+    width:480px;
+    height:320px;
+}
+.dataBaseDetail .echarts{
+    width:100%;
+}
+.chinaMap .echarts{
+    width:800px;
+    height:600px;
+}
+.menuSearch .el-form-item__content{
+    line-height:34px;
+}
+.menuSearch .el-button--small{
+    height: 34px;
+}
+/* 左侧Tree菜单自定义样式 */
+.menuTree .el-tree-node__label{
+    text-indent: 5px;
+    font-size: 12px;
+    color: #757575;
+    white-space: normal;
+}
+.menuTree .el-tree-node__content{
+    min-height: 26px;
+    height: auto;
+}
+.menuTree .el-tree{
+    height:100%;
+    overflow: auto;
+}
+/* 设置左侧tree自定义图标 */
+.menuTree .custom .el-tree-node__expand-icon{
+    background:url(../images/+.png)
+}
+.menuTree .custom .el-tree-node__expand-icon.expanded{
+    background:url(../images/-.png);
+}
+.menuTree .custom .el-tree-node__expand-icon.is-leaf{
+    background:none;
+}
+.menuTree .custom  .el-icon-caret-right:before{
+  content: '';
+}
+
+.menuTree2 .custom-tree-node{
+  text-indent: 5px;
+  font-size: 15px;
+  color: #757575;
+  white-space: normal;
+}
+.menuTree2 .el-tree-node__content{
+  min-height: 26px;
+  height: auto;
+}
+.menuTree2 .el-tree{
+  height:100%;
+  overflow: auto;
+}
+/* 设置左侧tree自定义图标 */
+.menuTree2 .custom .el-tree-node__expand-icon{
+  background:none;
+}
+.menuTree2 .custom .el-tree-node__expand-icon.expanded{
+  background:none;
+}
+.menuTree2 .custom .el-tree-node__expand-icon.is-leaf{
+
+  background:none;
+
+}
+.menuTree2 .custom .filetype{
+  display: inline-block;
+  width: 16px;
+  height:16px;
+  background:url(../images/file.png) no-repeat center center;
+  background-size: contain;
+}
+.menuTree2 .custom  .floadertype{
+  display: inline-block;
+  width: 16px;
+  height:16px;
+  background:url(../images/book.png) no-repeat center center;
+  background-size: contain;
+}
+.menuTree2 .custom  .el-icon-caret-right:before{
+content: '';
+}
+/* 新债 */
+#futureDebt .el-table .cell{
+    height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#futureDebt .table .el-input__icon{
+    line-height: 23px;
+}
+
+#futureDebt .table .el-input__inner{
+    height:23px!important;
+    line-height: 23px!important;
+}
+#futureDebt .table .el-table__row.yellow{
+    background:#e3f112;
+}
+#futureDebt .table .el-table__row.green{
+    background:#0f0;
+}
+#futureDebt .table .el-table__row.red{
+    background:#f00;
+}
+/* 历史调研 */
+.invest .el-upload--text{
+    width: 120px;
+    height:120px;
+    text-align: center;
+    border: 1px dashed #c0ccda;
+}
+.invest .el-upload--text .el-icon-plus{
+    font-size: 28px;
+    line-height: 120px;
+}
+/* .invest .el-upload-list--text{
+    position: absolute;
+    width:100%;
+    left:0;
+    margin-top: 8px;
+    box-shadow: -3px -2px 4px #c0ccda;
+} */
+.accountmaintenance-one .el-input__inner{
+  border: 0 none;
+}
+#main .el-table tr.current-row{
+    /* color: #000; */
+    font-weight: bold;
+}
+.addfunjijin .input-with-select{
+  margin:0px;
+}

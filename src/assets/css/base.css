@@ -1,0 +1,82 @@
+.fl{
+  float: left;
+  margin-right:15px;
+  font-size: 13px;
+}
+
+*{
+  padding:0;
+  margin:0;
+  border:none;
+  font-family:"微软雅黑"!important;
+  list-style: none;
+}
+html,body{height:100%}
+body{
+  background: #fff;
+  height: 100%;
+  overflow: hidden;
+}
+#ias{
+  /* padding-bottom: 100px; */
+}
+.el-dialog__body{
+  padding: 30px 15px;
+}
+.main .el-main{
+  padding:0!important;
+}
+.fr{
+  float: right;
+}
+.clearfix:after{
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  }
+
+.clearfix {
+  /* 触发 hasLayout */
+  zoom: 1;
+  }
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    padding: 8px!important;
+    overflow-wrap: break-word;
+  }
+  .ant-layout-sider-trigger{
+    background: #e6f7ff!important;
+    color:#2d8ddb;
+  }
+  .tableComponent .ant-table-small > .ant-table-content > .ant-table-body{
+      margin: 0 auto!important;
+  }
+  .tableComponent .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr{
+      background: #e6f7ff!important;
+  }
+  .tableComponent .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr{
+    background: #e6f7ff!important;
+  
+  }
+  .tableComponent .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th{
+    background: #e6f7ff!important;
+  }
+  .tableComponent  .ant-table-thead{
+    background: #e6f7ff!important;
+  }
+  .ant-menu-item .anticon + span, .ant-menu-submenu-title .anticon + span{
+    font-size: 13px!important;
+  }
+
+ #previewVisible .ant-modal{
+      width: 80%!important;
+  }
+  
+  #mysubmit  .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr > td{
+    font-size: 13px!important;
+  }
+  #mysubmit .ant-spin-container{
+    height: 100%!important;
+  }
+
