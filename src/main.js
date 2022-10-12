@@ -80,7 +80,7 @@ axios.interceptors.response.use(function (response) {
     // Do something with response error
     console.log(res.response)
     if(res.response.status===400 && res.response.data.msg=='请求中未包含token'){
-      // window.location.href = `https://sso.i.wxblockchain.com/user/login?redirectUrl=${ENV=='development'?'http://achain-test.i.wxblockchain.com:3000':'https://achain.i.wxblockchain.com'}`
+      // window.location.href = `https://sso.baidu.com/user/login?redirectUrl=${ENV=='development'?'http://achain-test.baidu.com:3000':'https://achain.baidu.com'}`
     }
     return Promise.reject(res);
   });

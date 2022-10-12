@@ -190,25 +190,25 @@ export default {
             }
             else if(file.file_name.indexOf('.pdf')>=0){
                 // debugger
-                this.getNumPages('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
+                this.getNumPages('https://achain.baidu.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
                 // this.$nextTick(()=>{
                 //       this.previewpdf = true;
                 // })
             }
             else if(file.file_name.indexOf('.xlsx')>=0 || file.file_name.indexOf('.xls')>=0){
-                 this.getexcel('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
+                 this.getexcel('https://achain.baidu.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
                 //  console.log('xlsx',file)
                 //  this.getexcel(file)
                  this.showExcel = true
             }
             else if(file.file_name.indexOf('.doc')>=0){
-                 this.getword('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
+                 this.getword('https://achain.baidu.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
                 //  console.log('xlsx',file)
                 //  this.getexcel(file)
                  this.showWord = true
             }
             else if(file.file_name.indexOf('.txt')>=0){
-                 this.getTxt('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
+                 this.getTxt('https://achain.baidu.com/v2/ajax/file/download/'+ file.path+'/'+ file.file_name)
                 //  console.log('xlsx',file)
                 //  this.getexcel(file)
                  this.showTxt = true
@@ -230,19 +230,19 @@ export default {
             else if(file.name.indexOf('.pdf')>=0){
                 console.log('pdf',file)
                 if(file.url){
-                    this.getNumPages('https://achain.i.wxblockchain.com'+ file.url)
+                    this.getNumPages('https://achain.baidu.com'+ file.url)
                 }
                 if(file.response){
-                   this.getNumPages('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
+                   this.getNumPages('https://achain.baidu.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
                 }
                 //  this.previewpdf = true;
             }
             else if(file.name.indexOf('.xlsx')>=0 || file.name.indexOf('.xls')>=0){
                  if(file.response){
-                    this.getexcel('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
+                    this.getexcel('https://achain.baidu.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
                  }
                   if(file.url){
-                        this.getexcel('https://achain.i.wxblockchain.com'+ file.url)
+                        this.getexcel('https://achain.baidu.com'+ file.url)
                     }
                 //  console.log('xlsx',file)
                 //  this.getexcel(file)
@@ -250,18 +250,18 @@ export default {
             }
             else if(file.name.indexOf('.doc')>=0 || file.name.indexOf('.docx')>=0){
                  if(file.response){
-                    this.getword('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
+                    this.getword('https://achain.baidu.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
                  }
                   if(file.url){
-                    this.getword('https://achain.i.wxblockchain.com'+ file.url)
+                    this.getword('https://achain.baidu.com'+ file.url)
                 }
             }
             else if(file.name.indexOf('.txt')>=0){
                  if(file.response){
-                    this.getTxt('https://achain.i.wxblockchain.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
+                    this.getTxt('https://achain.baidu.com/v2/ajax/file/download/'+ file.response.path+'/'+ file.response.file_name)
                  }
                   if(file.url){
-                    this.getTxt('https://achain.i.wxblockchain.com'+ file.url)
+                    this.getTxt('https://achain.baidu.com'+ file.url)
                 }
             }
             else {
